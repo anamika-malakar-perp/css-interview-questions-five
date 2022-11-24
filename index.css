@@ -1,0 +1,39 @@
+.show-transition {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all 2s;
+}
+
+.show-transition:hover {
+    background-color: blueviolet;
+    width: 200px;
+}
+
+.show-transformation {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: all 2s;
+}
+
+.show-transformation:hover {
+    transform: rotateX(360deg);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 100px 100px; 
+    grid-gap: 2rem;
+}
+
+.item {
+    background-color: red;
+    border: 2px solid black;
+    padding: 15px 5px;
+} 
+
+.questions {
+    font-size: 20px;
+    font-weight: 600;
+}
